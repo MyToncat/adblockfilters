@@ -1,3 +1,18 @@
+# https://github.com/217heidai/adblockfilters/issues/122
+v6lvs.com
+# https://github.com/217heidai/adblockfilters/issues/120
+gia.jd.com
+# https://github.com/217heidai/adblockfilters/issues/119
+duiba.com.cn
+dui88.com
+# https://github.com/217heidai/adblockfilters/issues/118
+biligame.com
+# https://github.com/217heidai/adblockfilters/issues/108#issuecomment-2668440444
+galleryapi.micloud.xiaomi.net
+# https://github.com/217heidai/adblockfilters/issues/117
+17u.cn
+# https://github.com/217heidai/adblockfilters/issues/116
+alimama.com
 # https://github.com/217heidai/adblockfilters/issues/114
 pt.5211game.com
 # https://github.com/217heidai/adblockfilters/issues/113

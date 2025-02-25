@@ -1,10 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2025-02-06 17:13:59（北京时间）
-! Total Count: 5577
+! Update Time: 2025-02-23 11:35:00（北京时间）
+! Total Count: 5595
 ! by: 酷安@大萌主
 ! domain name
+||yetcdn.com^
+||fqquzqd.top^
+||ixbua.xyz^
+||x1abo.com^
+||990215.xyz^
+||epxlt.xyz^
+||jsdelivr.vip^
 ||chenhao97.top^
 ||aizhantj.com^
 ||usrzh.cn^
@@ -424,7 +431,6 @@
 ||1117liangtiao2022.xyz^
 ||11jianzhan.com^
 ||1205qitiao2022.xyz^
-||120askimages.com^
 ||121.43.235.135^
 ||1224.zg-babyroo.com^
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
@@ -4464,6 +4470,7 @@
 ||adutp.com^$third-party
 ||aiqu2727.com/da/
 ||www.hdmp4.cc/js/foot.js
+||huakai2025.com/color.js
 .fun/*/17*/*.css?r=0$third-party
 .fun/*.jss?17*&r=0$third-party
 .top/*_*_vw*sbjs?$third-party
@@ -4483,6 +4490,7 @@
 .xyz/alpine?$third-party
 ||iyinghua.io/bar/
 /_xa/ads
+||nunuyy11.com/xx/d.js
 ||boshishuwu.com/js/middlestyle.js
 ||boshishuwu.com/js/zhuanhua.js
 ||www.288txt.com/da/*.js
@@ -4553,6 +4561,7 @@ xmh/200/200-*.gif
 ||img.bzzyx.cn/dipiao.js
 ||hhdmh.net/bd/36mh.js
 ||hhdmh.net/js/g1.js
+||deqixs.com/config/v7.js
 /hm.html?s=*=http
 ||m.yinghuacd.com/bar
 ||haoyu666.top/uploads*%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
@@ -4568,6 +4577,7 @@ chen-xing/figure_bed*
 .xyz/hm.js?$third-party
 /Distribute/Distribute_g/butterfly/*
 /js/mts.js
+/template/jable/angular.min.js$~third-party
 /bugsnag.min.js$third-party
 .icu/biyys*.js$third-party
 /bigREDcat.js?$third-party
@@ -4695,6 +4705,7 @@ xyz:9002/*?x=$third-party
 ||pufei.cc/skin/footer.js
 ||pufei.cc/skin/middle.js
 js/yys/Pfhl365.js
+||ffdm2.cc/ht_cpc.js
 ||zokjds.com/js/xiao.js
 /static/jietiandixs/jtd.js$~third-party
 ||xsbiquge.la/js/detail.js
@@ -4884,6 +4895,7 @@ zhidao.baidu.com##[class$='-ecom-ads']
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.asp-self-rander > .asp-wrap
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
+baike.baidu.com###J-attention-wrapper
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.baidu.com##[class="qtqy-container"],[class="yitiao-content J-yitiao-content"],[class="yitiao-title"]
 zhidao.baidu.com###knowledge-answer-list
@@ -4893,7 +4905,7 @@ wen.baidu.com##.related-asp-new
 pan.baidu.com##A.active-msg
 pan.baidu.com##div.content DIV.photo-banner
 mobile.baidu.com##SECTION.detail-banner.banner-ck
-bing.com,cn.bing.net##LI.b_ans
+bing.com,cn.bing.net##li.b_ans:not(:has(h2))
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.pa_sb
@@ -4941,6 +4953,9 @@ cibaipuki.com##A[href^='/article-list-id']
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
 cibaipuki.com##[href*=":"]
 cibaipuki.com##.table2
+bohe.cn##IFRAME[width='400'][height='200']
+bohe.cn##.ml-30
+bohe.cn##.mt20
 m.qidian.com##P.text-content
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
@@ -4976,6 +4991,8 @@ www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.to
 www.itdog.cn#%#window.alert=function(str){return}
 apkcombo.com##[data-d-ad-id]
 apkcombo.com##.diseanmevrtt
+izaiwen.cn##DIV[carousel-item]
+izaiwen.cn##.item-box
 huya.com###template
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 smartapps.cn##swan-nest-banner-ad.ad-expose
@@ -5033,6 +5050,7 @@ www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 m.kdslife.com###app.Card.DownloadGuide
 m.guancha.cn##.g_header.go-to-app
 douyin.com##[class*='h5-ad-']
+120ask.com##IFRAME[width='400']
 thepaper.cn##[class^='index_footer_banner']
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
@@ -5417,7 +5435,6 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##[ad_dot_url]
 ##DIV#pos_nei_content
 ##[src*='zdmbl.xyz']
-##I.fa.fa-close
 ##IMG#diads
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
@@ -5549,6 +5566,7 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##[href*='slkdnlkfnskl.com']
 ##[onclick*='fjbglfrv.com']
 ##.adwap
+##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##DIV[style='position:relative !important;padding:0px !important;margin:0px !important;width:100% !important;overflow:hidden !important;font-size:0px !important;line-height:0px !important;']
 ##DIV.theme-hope-content.ads-container
 ##[href*='amu6v.com']
